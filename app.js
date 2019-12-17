@@ -3,6 +3,7 @@ const bodyParser = require('body-parser')
 const PORT = process.env.PORT || 3001
 const app = express()
 
+
 const detectPrimeNumber = function (req, res) {
     const number = +req.body.number
 
@@ -19,6 +20,7 @@ const detectPrimeNumber = function (req, res) {
         prime: number > 1
     })
 }
+
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())

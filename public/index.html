@@ -14,17 +14,35 @@
 
 <body>
     <div class="container">
+        <div class="row center-align">
+            <h3>
+                Prime Detective
+            </h3>
+        </div>
+        <div class="row center-align">
+            <p>
+                Enter a number to see if it is prime.
+            </p>
+        </div>
         <div class="row">
             <form id="number-form">
-                <div class="input-field col s6">
-                    <input id="number" type="number" class="validate">
-                    <label for="number">
-                        Number
-                    </label>
-                </div>
+                <input id="number" type="number" class="validate" />
             </form>
         </div>
     </div>
+
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <p class="modal-msg center-align"></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">
+                Ok
+            </a>
+        </div>
+    </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
