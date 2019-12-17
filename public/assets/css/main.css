@@ -10,9 +10,10 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
     border: 2px solid #e0e0e0 !important;
+    background: url("../images/search.png") no-repeat scroll 10px 15px;
     border-radius: 100px !important;
     -moz-appearance: textfield;
-    padding-left: 15px !important;
+    text-indent: 35px;
     box-shadow: none! important;
 }
 

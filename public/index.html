@@ -5,41 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>
         Prime Detective
     </title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row center-align">
+    <div class="container center-align">
+        <!-- TITLE -->
+        <div class="row">
             <h3>
                 Prime Detective
             </h3>
-        </div>
-        <div class="row center-align">
             <p>
                 Enter a number to see if it's a prime suspect.
             </p>
         </div>
+
+        <!-- FORM -->
         <div class="row">
             <form id="number-form">
                 <input id="number" type="number" class="validate" />
             </form>
         </div>
-    </div>
 
-
-    <div id="modal" class="modal lighten-5">
-        <div class="modal-content">
-            <p id="modal-txt" class="center-align"></p>
-        </div>
-        <div class="modal-footer importantRule">
-            <a href="#" class="modal-close waves-effect waves-green btn-flat">
-                Ok
+        <!-- FOOTER -->
+        <div>
+            <a href="https://github.com/JDarron/Prime-Detective" target="_blank">
+                Github Repository
             </a>
+            |
+            <a href="http://spears-phillips.herokuapp.com/" target="_blank">
+                Joshua Spears
+            </a>
+        </div>
+
+        <!-- MODAL -->
+        <div id="modal" class="modal lighten-5">
+            <div class="modal-content">
+                <p id="modal-txt" class="center-align"></p>
+            </div>
+            <div class="modal-footer importantRule">
+                <a href="#" class="modal-close waves-effect waves-green btn-flat">
+                    Ok
+                </a>
+            </div>
         </div>
     </div>
 
