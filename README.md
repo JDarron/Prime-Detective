@@ -1,7 +1,11 @@
 Welcome to Prime Detective
 
-To begin, follow the instructions below
 
+Requirements:
+- Node
+
+
+Instructions
 - git clone git@github.com:JDarron/Prime-Detective.git
 - cd Prime-Detective
 - npm install
