@@ -4,6 +4,7 @@ $(document).ready(function () {
     const modal = $('#modal')
     const modalTxt = $('#modal-txt')
     const modalFooter = $('.modal-footer')
+    const loader = $('.loader')
 
 
     form.submit(function (e) {
@@ -19,7 +20,13 @@ $(document).ready(function () {
                 number: number
             },
 
+            beforeSend: function () {
+                loader.removeClass('hide')
+            },
+
             success: function (res) {
+                loader.addClass('hide')
+
                 if (res.prime) {
                     modalTxt.text('Guilty of being a prime')
                     modal.removeClass('red')

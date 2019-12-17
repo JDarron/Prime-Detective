@@ -10,7 +10,7 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
     border: 2px solid #e0e0e0 !important;
-    background: url("../images/search.png") no-repeat scroll 10px 15px;
+    background: url("../images/search.png") no-repeat scroll 10px 14px;
     border-radius: 100px !important;
     -moz-appearance: textfield;
     text-indent: 35px;
@@ -20,4 +20,9 @@ input[type=number] {
 input:focus {
     border-bottom: 2px solid #e0e0e0 !important;
     box-shadow: none! important;
+}
+
+.loader {
+    margin: auto;
+    margin-top: 100px;
 }
